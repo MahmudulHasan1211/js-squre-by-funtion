@@ -1,15 +1,6 @@
-function square (number){
+function calculate (number){
     console.log('given value',number)
-    borgo =number * number;
-    console.log('square of the given number is',borgo)
-}
-
-square(10)
-// console.log(borgo)
-
-
-function  hello (number){
     const square = number * number;
-    console.log(square)
+    console.log('square of the given number is',square)
 }
-hello(10)
+ calculate(9)
