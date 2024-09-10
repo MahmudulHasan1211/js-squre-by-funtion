@@ -17,3 +17,16 @@ function numbers (num1 , num2){
 }
 
 numbers ( 22 , 150)
+numbers ( 222 , 150)
+numbers ( 202 , 270)
+
+
+function sub (numb1, numb2){
+    console.log('given numbers are', numb1 , numb2)
+    const subtraction = numb1 - numb2;
+    console.log('value after subtraction',subtraction)
+}
+
+sub (77, 80)
+sub (7272, 810)
+sub (177, 80)
